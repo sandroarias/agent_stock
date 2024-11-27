@@ -11,7 +11,6 @@ from langchain_openai import ChatOpenAI
 
 os.environ['OPENAI_APY_KEY'] = config('OPENAI_APY_KEY')
 
-
 st.set_page_config(
     page_title='Estoque GPT',
     page_icon='',
